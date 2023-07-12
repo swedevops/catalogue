@@ -1,3 +1,6 @@
 appName: catalogue
 params: "dev.catalogue.mongo_url dev.catalogue.documentdb"
 appPort: 8080
+schema:
+  enabled: true
+  type: mongo
